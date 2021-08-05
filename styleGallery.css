@@ -1,0 +1,81 @@
+body {
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: 'Poppins';
+    color: #707070;
+     background-color: #f8f8f8;
+     
+  }
+  .gallery-image {
+    width: 300px;
+    height: 300px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+  }
+  .parent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 35px;
+  }
+  .menu-item{
+    width: 200px;
+    height: 200px;
+    padding-right: 20px;
+    padding-left: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #707070;
+  }
+  #active-link {
+    background-color: white;
+    padding-top: 8px;
+    padding-bottom: 20px;
+    margin-right: 10px;
+  }
+  #sub-heading {
+    padding-bottom: 10px;
+  }
+  footer {
+    text-align: right;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  header {
+    text-align: right;
+    background-color: #f8f8f8;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-decoration: none;
+background-color: #ededed;
+  }
+  a{
+    padding-right: 20px;
+    padding-left: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #707070;
+}
+  .profile-link {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  @media screen and (max-width: 650px) {
+    .header-link {
+      display: block;
+      text-align: center;
+      padding-top: 8px;
+      padding-bottom: 8px;
+    }
+    header {
+      padding-top: 0px;
+      background-color: #f8f8f8;
+
+    }
+    #active-link {
+      background-color: white;
+      padding-top: 0;
+      padding-bottom: 0;
+    }
+  }

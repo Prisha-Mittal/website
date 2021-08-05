@@ -1,0 +1,101 @@
+
+
+#parent {
+    display:flex;
+    flex-wrap: wrap;
+    padding-top: 60px;
+    margin-bottom: 25px;
+}
+footer{
+  text-align:right;
+}
+
+
+#child1{
+    flex:1;
+    text-align: center;
+}
+body {
+  background-color: #f8f8f8;
+  font-family: 'Poppins';
+  color: #707070;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+  .menu-item{
+    width: 200px;
+    height: 200px;
+  }
+#child2{
+     flex: 1.5;
+   
+}
+#profile-photo {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+
+}
+header {
+    text-align: right;
+    background-color: #ededed;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .profile-link{
+
+margin-left: 8px;
+margin-right:8px;
+margin-bottom:20px;
+  }
+  .menu-item {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 20px;
+    color: #707070;
+    text-decoration: none;
+  }
+
+  #active-link {
+    background-color: white;
+    padding-top: 8px;
+    padding-bottom: 20px;
+  }
+    
+
+
+@media screen and (max-width: 650px) {
+    #child2 {
+     text-align: center;
+    }
+    .menu-item {
+      display:block;
+    }
+    header {
+      text-align: center;
+      background-color: #f8f8f8;
+    }
+}
+
+#active-link {
+  background-color: white;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+
+.sub-heading {
+  font-weight: 100;
+}
+#name {
+  font-family: 'Segoe Print';
+  color: #534f4f;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+.info {
+  color: #d53333;
+}
+#ques1 {
+  padding-top: 20px;
+}
